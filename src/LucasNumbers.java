@@ -8,7 +8,7 @@ public class LucasNumbers {
      * використання BigInteger!
      * @param number скільки чисел Люка потрібно обраховувати
      */
-    public void countLukasNumbers(int number){
+    public BigInteger countLukasNumbers(int number){
         BigInteger a = BigInteger.TWO;
         BigInteger b = BigInteger.ONE;
         BigInteger c;
@@ -24,7 +24,7 @@ public class LucasNumbers {
             a = b;
             b = c;
         }
-        System.out.println("Сума чисел Люка на заданому діапазоні: " + result);
+        result result;
     }
 
     /**

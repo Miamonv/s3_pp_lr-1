@@ -34,6 +34,7 @@ public class Main {
         number = enter.getN(args);
 
         LucasNumbers calculator = new LucasNumbers();   //запуск обчислень
-        calculator.countLukasNumbers(number);
+        System.out.println("Сума чисел Люка на заданому діапазоні: " + calculator.countLukasNumbers(number)2);
+
     }
 }
