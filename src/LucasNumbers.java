@@ -24,7 +24,7 @@ public class LucasNumbers {
             a = b;
             b = c;
         }
-        result result;
+        return result;
     }
 
     /**
